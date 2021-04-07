@@ -11,7 +11,7 @@ import {
  * @param {Object} parseLiteral(ast)
  */
 export default new GraphQLScalarType({
-  name: 'Date',
+  name: 'DateTime',
   description: 'A special custom Scalar type for Dates that converts to a ISO formatted string ',
   /**
    * serialize
